@@ -10,7 +10,7 @@ public class ConnectPoint {
     @Test
     public void productPoint(){
       //  int [][] twoDimension = productTwoDimension(4);  这个是随机生成的二维数组,特征不明显,看不出效果,使用下边的特征明显
-        int [][] twoDimension = productFiexdTwoDimension();//固定222的数据123123特征明显
+        int [][] twoDimension = productFiexdTwoDimension();//固定222的数据123123特征明显111111
 
         findConnected(twoDimension,4,2,2);
 
